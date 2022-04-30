@@ -1,0 +1,12 @@
+UNK
+Alarm-Update
+Audio-Play
+Calendar-Query
+FilmTele-Play
+HomeAppliance-Control
+Music-Play
+Radio-Listen
+TVProgram-Play
+Travel-Query
+Video-Play
+Weather-Query
