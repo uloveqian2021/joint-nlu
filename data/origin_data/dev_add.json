@@ -1,0 +1,863 @@
+{
+    "NLU11535": {
+        "text": "春熙路怎么走",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "导航",
+            "destination": "春熙路"
+        },
+        "ids": "NLU11535"
+    },
+    "NLU11986": {
+        "text": "到北京的火车班次",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "北京"
+        },
+        "ids": "NLU11986"
+    },
+    "NLU10342": {
+        "text": "查询临沂到济南的火车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "济南",
+            "departure": "临沂"
+        },
+        "ids": "NLU10342"
+    },
+    "NLU11996": {
+        "text": "明天去蚌埠的车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "蚌埠",
+            "datetime_date": "明天"
+        },
+        "ids": "NLU11996"
+    },
+    "NLU10812": {
+        "text": "合肥到深圳的火车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "深圳",
+            "departure": "合肥"
+        },
+        "ids": "NLU10812"
+    },
+    "NLU11388": {
+        "text": "查询厦门到武夷山的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "武夷山",
+            "departure": "厦门"
+        },
+        "ids": "NLU11388"
+    },
+    "NLU10620": {
+        "text": "明天到佛山的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "佛山",
+            "datetime_date": "明天"
+        },
+        "ids": "NLU10620"
+    },
+    "NLU11409": {
+        "text": "查一下澳门到吉隆坡的飞机",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "吉隆坡",
+            "departure": "澳门"
+        },
+        "ids": "NLU11409"
+    },
+    "NLU11963": {
+        "text": "帮我查一下临海到上海的火车",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "上海",
+            "departure": "临海"
+        },
+        "ids": "NLU11963"
+    },
+    "NLU10806": {
+        "text": "帮我定一张去镇江的动车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "镇江"
+        },
+        "ids": "NLU10806"
+    },
+    "NLU10340": {
+        "text": "查一下从广州到南宁的火车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "南宁",
+            "departure": "广州"
+        },
+        "ids": "NLU10340"
+    },
+    "NLU11394": {
+        "text": "明天去桂林的航班。",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "桂林",
+            "datetime_date": "明天"
+        },
+        "ids": "NLU11394"
+    },
+    "NLU11943": {
+        "text": "查一下到洛阳的高铁",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "洛阳"
+        },
+        "ids": "NLU11943"
+    },
+    "NLU11983": {
+        "text": "厦门到赣州的火车票",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "赣州",
+            "departure": "厦门"
+        },
+        "ids": "NLU11983"
+    },
+    "NLU10950": {
+        "text": "宁波到杭州的汽车",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "汽车票查询",
+            "destination": "杭州",
+            "departure": "宁波"
+        },
+        "ids": "NLU10950"
+    },
+    "NLU11402": {
+        "text": "大连飞往上海的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "上海",
+            "departure": "大连"
+        },
+        "ids": "NLU11402"
+    },
+    "NLU10626": {
+        "text": "查一下明天青岛飞往上海的飞机都有哪一些都是几点的",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "上海",
+            "datetime_date": "明天",
+            "departure": "青岛"
+        },
+        "ids": "NLU10626"
+    },
+    "NLU10795": {
+        "text": "后天去南京的火车",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "南京",
+            "datetime_date": "后天"
+        },
+        "ids": "NLU10795"
+    },
+    "NLU10953": {
+        "text": "从合肥到上海可以到哪坐车？",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "汽车票查询",
+            "destination": "上海",
+            "departure": "合肥"
+        },
+        "ids": "NLU10953"
+    },
+    "NLU10338": {
+        "text": "从广州到南昌的火车票时刻表",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "南昌",
+            "departure": "广州"
+        },
+        "ids": "NLU10338"
+    },
+    "NLU12007": {
+        "text": "广州到孝感的火车",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "孝感",
+            "departure": "广州"
+        },
+        "ids": "NLU12007"
+    },
+    "NLU11383": {
+        "text": "明天回广州的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "广州",
+            "datetime_date": "明天"
+        },
+        "ids": "NLU11383"
+    },
+    "NLU11393": {
+        "text": "查询后天成都到伦敦的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "伦敦",
+            "datetime_date": "后天",
+            "departure": "成都"
+        },
+        "ids": "NLU11393"
+    },
+    "NLU10198": {
+        "text": "从武汉到呼和浩特",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "导航",
+            "destination": "呼和浩特",
+            "departure": "武汉"
+        },
+        "ids": "NLU10198"
+    },
+    "NLU10156": {
+        "text": "有没有下周二到贵阳的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "贵阳",
+            "datetime_date": "下周二"
+        },
+        "ids": "NLU10156"
+    },
+    "NLU10023": {
+        "text": "从台州到金华的汽车。",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "汽车票查询",
+            "destination": "金华",
+            "departure": "台州"
+        },
+        "ids": "NLU10023"
+    },
+    "NLU11516": {
+        "text": "到太湖怎么走",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "导航",
+            "destination": "太湖"
+        },
+        "ids": "NLU11516"
+    },
+    "NLU10164": {
+        "text": "去桂林的航班怎样",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "桂林"
+        },
+        "ids": "NLU10164"
+    },
+    "NLU10624": {
+        "text": "去重庆的机票多少钱。",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "重庆"
+        },
+        "ids": "NLU10624"
+    },
+    "NLU11995": {
+        "text": "广州去昆明的火车",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "火车票查询",
+            "destination": "昆明",
+            "departure": "广州"
+        },
+        "ids": "NLU11995"
+    },
+    "NLU10018": {
+        "text": "去深圳怎么坐车？",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "导航",
+            "destination": "深圳"
+        },
+        "ids": "NLU10018"
+    },
+    "NLU11422": {
+        "text": "到武汉的航班",
+        "intent": "Travel-Query",
+        "slots": {
+            "query_type": "机票查询",
+            "destination": "武汉"
+        },
+        "ids": "NLU11422"
+    },
+    "NLU10138": {
+        "text": "现在有什么好的电影呢？",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_time": "现在"
+        },
+        "ids": "NLU10138"
+    },
+    "NLU11343": {
+        "text": "给我看看什么时候有播盛夏晚晴天",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "name": "盛夏晚晴天"
+        },
+        "ids": "NLU11343"
+    },
+    "NLU10399": {
+        "text": "新闻解码",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "新闻解码"
+        },
+        "ids": "NLU10399"
+    },
+    "NLU12097": {
+        "text": "北京财经台",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "北京财经台"
+        },
+        "ids": "NLU12097"
+    },
+    "NLU11331": {
+        "text": "北京卡酷熊出没",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "name": "熊出没",
+            "channel": "北京卡酷"
+        },
+        "ids": "NLU11331"
+    },
+    "NLU11312": {
+        "text": "哪个台在放甄嬛",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "name": "甄嬛"
+        },
+        "ids": "NLU11312"
+    },
+    "NLU10135": {
+        "text": "搜一下今天中午开始放郭的秀",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_date": "今天",
+            "datetime_time": "中午",
+            "name": "郭的秀"
+        },
+        "ids": "NLU10135"
+    },
+    "NLU10124": {
+        "text": "今天晚上有没有中国好声音呢？",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_date": "今天",
+            "datetime_time": "晚上",
+            "name": "中国好声音"
+        },
+        "ids": "NLU10124"
+    },
+    "NLU12121": {
+        "text": "中国教育电视台三台",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "中国教育电视台三台"
+        },
+        "ids": "NLU12121"
+    },
+    "NLU10136": {
+        "text": "读书频道上个星期五有播放新闻联播吗",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_date": "上个星期五",
+            "name": "新闻联播",
+            "channel": "读书频道"
+        },
+        "ids": "NLU10136"
+    },
+    "NLU10598": {
+        "text": "电视回看安徽卫视",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "安徽卫视"
+        },
+        "ids": "NLU10598"
+    },
+    "NLU12073": {
+        "text": "CCTV四套",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "CCTV四套"
+        },
+        "ids": "NLU12073"
+    },
+    "NLU10428": {
+        "text": "体育赛事直播",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "体育赛事"
+        },
+        "ids": "NLU10428"
+    },
+    "NLU10599": {
+        "text": "12月9日北京卫视节目单",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_date": "12月9日",
+            "channel": "北京卫视"
+        },
+        "ids": "NLU10599"
+    },
+    "NLU11301": {
+        "text": "找找非诚勿扰什么时候结束",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "name": "非诚勿扰"
+        },
+        "ids": "NLU11301"
+    },
+    "NLU12122": {
+        "text": "换江苏卫视",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "江苏卫视"
+        },
+        "ids": "NLU12122"
+    },
+    "NLU12074": {
+        "text": "东方台",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "东方台"
+        },
+        "ids": "NLU12074"
+    },
+    "NLU12116": {
+        "text": "海南旅游卫视",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "旅游卫视"
+        },
+        "ids": "NLU12116"
+    },
+    "NLU12077": {
+        "text": "中央电视台电影频道",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "中央电视台电影频道"
+        },
+        "ids": "NLU12077"
+    },
+    "NLU11287": {
+        "text": "现在哪个台在播放剧情电视剧",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "datetime_time": "现在"
+        },
+        "ids": "NLU11287"
+    },
+    "NLU12123": {
+        "text": "福建电视台",
+        "intent": "TVProgram-Play",
+        "slots": {
+            "channel": "福建电视台"
+        },
+        "ids": "NLU12123"
+    },
+    "NLU11665": {
+        "text": "放一首其实我介意",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "其实我介意"
+        },
+        "ids": "NLU11665"
+    },
+    "NLU11672": {
+        "text": "我要听情动这首歌。",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "情动"
+        },
+        "ids": "NLU11672"
+    },
+    "NLU10254": {
+        "text": "毛阿敏的歌",
+        "intent": "Music-Play",
+        "slots": {
+            "artist": "毛阿敏"
+        },
+        "ids": "NLU10254"
+    },
+    "NLU11647": {
+        "text": "我想听情花开这首歌",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "情花开"
+        },
+        "ids": "NLU11647"
+    },
+    "NLU11703": {
+        "text": "来一首宝贝对不起",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "宝贝对不起"
+        },
+        "ids": "NLU11703"
+    },
+    "NLU10255": {
+        "text": "播放上海滩。",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "上海滩"
+        },
+        "ids": "NLU10255"
+    },
+    "NLU11675": {
+        "text": "我想听世上只有妈妈好这首歌。",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "世上只有妈妈好"
+        },
+        "ids": "NLU11675"
+    },
+    "NLU10251": {
+        "text": "来一首我们的歌谣。",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "我们的歌谣"
+        },
+        "ids": "NLU10251"
+    },
+    "NLU10246": {
+        "text": "我想听星月神话",
+        "intent": "Music-Play",
+        "slots": {
+            "song": "星月神话"
+        },
+        "ids": "NLU10246"
+    },
+    "NLU11740": {
+        "text": "落花不是无情物的下一句是什么？",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "落花不是无情物",
+            "play_setting": "下一句"
+        },
+        "ids": "NLU11740"
+    },
+    "NLU10731": {
+        "text": "让读一下沁园春雪毛泽东。",
+        "intent": "Audio-Play",
+        "slots": {
+            "artist": "毛泽东",
+            "name": "沁园春雪"
+        },
+        "ids": "NLU10731"
+    },
+    "NLU10267": {
+        "text": "那给我背静夜思。",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "静夜思"
+        },
+        "ids": "NLU10267"
+    },
+    "NLU11780": {
+        "text": "何以解忧的下一句是什么？",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "何以解忧",
+            "play_setting": "下一句"
+        },
+        "ids": "NLU11780"
+    },
+    "NLU11784": {
+        "text": "来一首咏柳。",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "咏柳"
+        },
+        "ids": "NLU11784"
+    },
+    "NLU10271": {
+        "text": "说个李白的诗来听听。",
+        "intent": "Audio-Play",
+        "slots": {
+            "artist": "李白"
+        },
+        "ids": "NLU10271"
+    },
+    "NLU10270": {
+        "text": "唐诗哦。",
+        "intent": "Audio-Play",
+        "slots": {},
+        "ids": "NLU10270"
+    },
+    "NLU10273": {
+        "text": "读首唐诗来听听。",
+        "intent": "Audio-Play",
+        "slots": {},
+        "ids": "NLU10273"
+    },
+    "NLU11744": {
+        "text": "来一首纳兰性德的词。",
+        "intent": "Audio-Play",
+        "slots": {
+            "artist": "纳兰性德"
+        },
+        "ids": "NLU11744"
+    },
+    "NLU11766": {
+        "text": "朗读游子吟。",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "游子吟"
+        },
+        "ids": "NLU11766"
+    },
+    "NLU11727": {
+        "text": "背诵一首唐诗",
+        "intent": "Audio-Play",
+        "slots": {},
+        "ids": "NLU11727"
+    },
+    "NLU10275": {
+        "text": "尽在不言中下一句是什么？",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "尽在不言中",
+            "play_setting": "下一句"
+        },
+        "ids": "NLU10275"
+    },
+    "NLU10738": {
+        "text": "给我搜索唐诗。",
+        "intent": "Audio-Play",
+        "slots": {},
+        "ids": "NLU10738"
+    },
+    "NLU11718": {
+        "text": "背将进酒。",
+        "intent": "Audio-Play",
+        "slots": {
+            "name": "将进酒"
+        },
+        "ids": "NLU11718"
+    },
+    "NLU11801": {
+        "text": "本省农村广播",
+        "intent": "Radio-Listen",
+        "slots": {
+            "name": "本省农村广播"
+        },
+        "ids": "NLU11801"
+    },
+    "NLU10873": {
+        "text": "中国霸王花",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "中国霸王花"
+        },
+        "ids": "NLU10873"
+    },
+    "NLU10861": {
+        "text": "电视剧粘豆包",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "粘豆包"
+        },
+        "ids": "NLU10861"
+    },
+    "NLU12272": {
+        "text": "请播放一下举起手来",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "举起手来"
+        },
+        "ids": "NLU12272"
+    },
+    "NLU10421": {
+        "text": "青瓷电视剧",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "青瓷"
+        },
+        "ids": "NLU10421"
+    },
+    "NLU10871": {
+        "text": "张绍刚的综艺节目",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "artist": "张绍刚",
+            "tag": "综艺"
+        },
+        "ids": "NLU10871"
+    },
+    "NLU10432": {
+        "text": "搜幕府风云",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "幕府风云"
+        },
+        "ids": "NLU10432"
+    },
+    "NLU12145": {
+        "text": "动画片",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "tag": "动画"
+        },
+        "ids": "NLU12145"
+    },
+    "NLU10438": {
+        "text": "金枝欲孽",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "金枝欲孽"
+        },
+        "ids": "NLU10438"
+    },
+    "NLU12133": {
+        "text": "苍狼",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "苍狼"
+        },
+        "ids": "NLU12133"
+    },
+    "NLU12241": {
+        "text": "福尔摩斯",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "福尔摩斯"
+        },
+        "ids": "NLU12241"
+    },
+    "NLU12179": {
+        "text": "古惑仔",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "古惑仔"
+        },
+        "ids": "NLU12179"
+    },
+    "NLU12187": {
+        "text": "情景剧电视剧",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "tag": "情景"
+        },
+        "ids": "NLU12187"
+    },
+    "NLU12278": {
+        "text": "请打开电影",
+        "intent": "FilmTele-Play",
+        "slots": {},
+        "ids": "NLU12278"
+    },
+    "NLU12267": {
+        "text": "我的幸福",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "我的幸福"
+        },
+        "ids": "NLU12267"
+    },
+    "NLU10884": {
+        "text": "那金花和她的女婿",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "那金花和她的女婿"
+        },
+        "ids": "NLU10884"
+    },
+    "NLU12163": {
+        "text": "我想看大武当电影",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "大武当"
+        },
+        "ids": "NLU12163"
+    },
+    "NLU12264": {
+        "text": "中国新声代",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "中国新声代"
+        },
+        "ids": "NLU12264"
+    },
+    "NLU10433": {
+        "text": "三女休夫",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "三女休夫"
+        },
+        "ids": "NLU10433"
+    },
+    "NLU10429": {
+        "text": "爱情片",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "tag": "爱情"
+        },
+        "ids": "NLU10429"
+    },
+    "NLU12153": {
+        "text": "搜索最近的，科幻电影。",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "tag": "科幻",
+            "age": "最近"
+        },
+        "ids": "NLU12153"
+    },
+    "NLU12177": {
+        "text": "魔幻手机",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "魔幻手机"
+        },
+        "ids": "NLU12177"
+    },
+    "NLU12224": {
+        "text": "播放特种兵之利刃出鞘",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "name": "特种兵之利刃出鞘"
+        },
+        "ids": "NLU12224"
+    },
+    "NLU12234": {
+        "text": "看动物卡通",
+        "intent": "FilmTele-Play",
+        "slots": {
+            "tag": "动物卡通"
+        },
+        "ids": "NLU12234"
+    }
+}
